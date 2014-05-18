@@ -1,0 +1,158 @@
+﻿/* Estilo de pagina de inicio*/
+#link {
+    float:right;
+}
+#caja1 {
+    margin:5%;
+    width: 85%;
+    height:100%;
+}
+
+#caja2 {
+    float:left;
+    margin:5%;
+    width: 40%;
+    height:60%;
+}
+#h1 {
+    text-align:center;
+}
+#parrafoInicio {
+    text-align : justify;
+    margin:5%;
+    margin-bottom:10%;
+}
+
+#caja3 {
+    margin:5%;
+     width: 40%;
+     height:60%;
+     margin-left:50%;
+}
+
+#nombre{
+     width: 45%;
+     height:10%;
+     margin-left:20%;
+}
+
+#pass{
+     width: 45%;
+     height:10%;
+     margin-left:20%;
+}
+#btnAceptar {
+    margin-left:70%;
+}
+
+/* Estilo de pagina servicios*/
+
+#caja2.2 {
+    float:left;
+    margin:5%;
+    width: 40%;
+    height:60%;
+}
+#parrafoServicio {
+    text-align : justify;
+    margin:5%;
+    margin-bottom:10%;
+}
+#fieldServicios {
+    box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+}
+
+/* Estilo pagina registro*/
+
+#registro {
+    margin:10%;
+    margin-top:-0.2%;
+
+}
+#formRegistro {
+    float:left;
+    margin:5%;
+}
+#imagenReg{
+    /*height:227px;*/
+    height:25%;
+    width:25%;
+    margin-left: 281px;
+    margin-top: 67px;
+    box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+}
+
+
+/*Estilos pagina de correo*/
+
+#correo {
+    margin:10%;
+    margin-top:-0.2%;
+}
+#formCorreo {
+    float:left;
+    margin:5%;
+}
+#imagenCorreo{
+    /*height:227px;*/
+    height:25%;
+    width:25%;
+    margin-left: 300px;
+    margin-top: 67px;
+    box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+}
+/*Estilo pagina asistencia*/
+#tabla {
+    margin:30%;
+    margin-top:-1%;
+}
+
+/*Estilos pagina verificar estado*/
+#estado1 {
+   margin-left: 40%;
+   margin-top:2%;
+   margin-right:40%;
+
+}
+
+/*Estilos pagina gestionar solicitud*/
+#cuerpoGestion {
+    margin-bottom:-10%;
+    height: 754px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+#field1{
+    height:70%;
+    width:25%;
+    float:left;
+    margin-left: 73px;
+}
+#field2{
+    margin-bottom: 10%;
+    height: 856px;
+}
+/*pagina crear Memorandum*/
+#fomMemo{
+    margin-left:30%;
+    margin-right:30%;
+  
+}
+#memo {
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:2%;
+
+}
+#encaMemo {
+    float:right;
+    margin-right:1%;
+}
+
+/*estilo pagina modificar memo*/
+
+#cuerpoCarga {
+    margin:10%;
+}

@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="sasecMaster.master.cs" Inherits="SASEC_IC.sasecMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+     <link href="Estilos1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style type="text/css">
+        #encabezado {
+            height: 20%;
+            width: 100%;
+        
+            border-top-right-radius:15px;
+            border-top-left-radius:15px;
+            box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+            background: linear-gradient(#449baf , black, #041c54);
+        }
+        #cuerpo {
+            height: 80%;
+            width: 100%;
+            background-color: #FFFFFF;
+        }
+         #logo1 {
+            width:30%;
+            height: 80%;
+            margin-left: 5%;
+            margin-top:5%;
+            float: left;
+        }
+         #tec {
+            width:30%;
+            height: 70%;
+            margin-left: 60%; 
+            margin-top:-30%;         
+            
+        }
+        #cssmenu ul {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          width: auto;
+          position: relative;
+          display: block;
+          height: 30px;
+          font-size: 12px;
+          font-weight: bold;
+          background: transparent url(nav_bg.png) repeat-x top left;
+          font-family: Arial, Helvetica, sans-serif;
+          border-bottom: 1px solid #449baf;
+          border-top: 1px solid #449baf;
+        }
+        #cssmenu li {
+          display: block;
+          float: left;
+          margin: 0;
+          padding: 0;
+            width: 183px;
+        }
+        #cssmenu li a {
+          display: block;
+          float: left;
+          color: #449baf;
+          text-decoration: none;
+          font-weight: bold;
+          padding: 8px 20px 0 20px;
+          width: 157px;
+        }
+        #cssmenu li a:hover {
+          color: #314e6e;
+          height: 22px;
+          background: transparent url(imagenes/nav_bg.png) 0px -30px no-repeat;
+        }
+        #cssmenu li.active a {
+          display: inline;
+          height: 22px;
+          background: transparent url(imagenes/nav_bg.png) 0px -30px no-repeat; 
+          float: left;
+          margin: 0;
+          width: 139px;
+        }
+       
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <header id="encabezado">
+             <div >
+                <img id="logo1" border="0" src="imagenes/SASEC1.png" alt="Pulpit rock">
+                <img id="tec" border="0" src="imagenes/logo.png" alt="Pulpit rock">
+            </div>   
+        </header>
+        <section id="cuerpo">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">        
+            </asp:ContentPlaceHolder>
+        </section>
+        
+        <footer></footer>
+    </div>
+    </form>
+</body>
+</html>
